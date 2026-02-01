@@ -23,8 +23,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
-EMAIL_HOST_USER='advertiserpd@gmail.com'
-EMAIL_HOST_PASSWORD='yges febi ibja qoht'
+EMAIL_HOST_USER='your_email'
+EMAIL_HOST_PASSWORD='your_secret_key'
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-9q*x_tjne%y&ck@3utrlplu&$igqi_h65xt+s935y5t*=&1tj^'
@@ -172,3 +172,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # for displaying images
 MEDIA_URL='/media/'
 MEDIA_ROOT=BASE_DIR /'media'
+
